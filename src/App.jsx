@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About";
+import Aboutus from "./components/Aboutus";
 import Body from "./components/Body";
 import Nav from "./components/Nav";
 import Navbar from "./components/Navbar";
@@ -11,8 +12,9 @@ function App() {
       <Nav />
       {/* <Navbar /> */}
       <Body />
-      <About />
-      <Staff />
+      <Aboutus />
+      {/* <About /> */}
+      {/* <Staff /> */}
     </div>
   );
 }

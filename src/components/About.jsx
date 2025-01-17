@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       {/* just for background in the left side section */}
-      <div className="w-full  ">
+      <div className="w-fit  ">
         <div class="container text-center">
           <div class="row">
             <div class="col">
@@ -31,7 +31,7 @@ const About = () => {
             </div>
 
             {/* right side section */}
-            <div class="col mt-5 items-start ">
+            <div class="col mt-5 items-start w-fit">
               <div className="">
                 <h3 className="text-2xl text-gray-300">Why choose us</h3>
                 <h1 className="text-5xl font-bold">
