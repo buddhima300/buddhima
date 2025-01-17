@@ -31,7 +31,7 @@ function Aboutus() {
             srcset=""
           />
           <img
-            className="w-full aspect-video md:relative -mt-[80%] ml-[45%] border-4 border-white shadow-md rounded-tr-[40%] h-96 rounded-bl-[40%]"
+            className="w-full aspect-video md:-mt-[80%] md:ml-[45%] md:border-4 md:border-white md:shadow-md md:rounded-tr-[40%] md:h-96 md:rounded-bl-[40%]"
             src="https://png.pngtree.com/thumb_back/fh260/background/20230706/pngtree-creating-3d-renderings-for-mobile-apps-software-and-web-development-image_3826852.jpg"
             alt="4th"
             srcset=""

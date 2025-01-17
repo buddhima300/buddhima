@@ -1,10 +1,8 @@
 import "./App.css";
-import About from "./components/About";
 import Aboutus from "./components/Aboutus";
 import Body from "./components/Body";
 import Nav from "./components/Nav";
-import Navbar from "./components/Navbar";
-import Staff from "./components/Staff";
+// import Staff from "./components/Staff";
 
 function App() {
   return (
@@ -13,7 +11,6 @@ function App() {
       {/* <Navbar /> */}
       <Body />
       <Aboutus />
-      {/* <About /> */}
       {/* <Staff /> */}
     </div>
   );
