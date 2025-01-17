@@ -8,7 +8,7 @@ function Nav() {
     <div>
       <nav className="bg-blue-900 w-full sticky">
         {/* left side of navbar with logo */}
-        <div className="flex flex-col gap-5 px-5 md:flex-row space-x-10 justify-between">
+        <div className="flex flex-col gap-5 px-5 md:flex-row space-x-10 justify-between ">
           <div className="flex flex-col md:flex-row items-center text-white text-4xl font-medium">
             <img src={Logo} alt="logo" srcset="" className="md:h-20" />
             FinBiz
@@ -63,18 +63,20 @@ function Nav() {
             </li>
           </div>
           {/* Right side of Nav bar */}
-          <div className="flex justify-center items-center">
-            <button className="text-white w-max bg-blue-600 rounded-md p-2 mr-2 font-semibold">
-              Book a Meeting
-            </button>
-          </div>
-          <div className=" text-white flex flex-col py-3">
-            <div className="flex justify-center">
-              <i class="bx bxs-phone-call text-blue-900 text-4xl bg-white rounded"></i>
+          <div className="flex flex-col lg:flex-row justify-end gap-5">
+            <div className="flex justify-center items-center ">
+              <button className="text-white w-max bg-blue-600 rounded-md p-2 mr-2 font-semibold">
+                Book a Meeting
+              </button>
             </div>
-            <div className="grid grid-flow-row justify-center">
-              <h3>Call us Anytime</h3>
-              <p>+94 558555655</p>
+            <div className=" text-white flex flex-col py-3">
+              <div className="flex justify-center">
+                <i class="bx bxs-phone-call text-blue-900 text-4xl bg-white rounded"></i>
+              </div>
+              <div className="grid grid-flow-row justify-center">
+                <h3>Call us Anytime</h3>
+                <p>+94 558555655</p>
+              </div>
             </div>
           </div>
         </div>
